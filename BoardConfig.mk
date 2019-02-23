@@ -46,7 +46,6 @@ TARGET_KERNEL_CONFIG := sirius_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm710
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno616
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := sirius
