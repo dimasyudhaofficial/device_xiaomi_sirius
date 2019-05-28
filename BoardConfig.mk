@@ -189,7 +189,7 @@ VENDOR_SECURITY_PATCH := 2019-09-01
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Treble
 BOARD_VNDK_RUNTIME_DISABLE := true
