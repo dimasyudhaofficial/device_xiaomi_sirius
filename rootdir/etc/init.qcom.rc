@@ -31,7 +31,6 @@ on early-init
     mount debugfs debugfs /sys/kernel/debug
     chmod 0755 /sys/kernel/debug
     write /proc/sys/kernel/sched_boost 1
-    symlink /data/tombstones /tombstones
 
     chown root system /dev/kmsg
     chmod 0620 /dev/kmsg
@@ -282,7 +281,6 @@ on post-fs-data
     mkdir /data/vendor/camera 0770 camera camera
 
     # Create directory for tftp
-    mkdir /data/vendor/tombstones 0771 system system
     mkdir /data/vendor/tombstones/rfs 0771 system system
 
     mkdir /data/vendor/ramdump 0771 root system
@@ -351,11 +349,6 @@ on post-fs-data
     mkdir /dev/socket/location/ehub 0770 gps gps
 
     mkdir /data/vendor/diag 2770 root log
-    mkdir /data/tombstones 0771 system system
-    mkdir /tombstones/modem 0771 system system
-    mkdir /tombstones/lpass 0771 system system
-    mkdir /tombstones/wcnss 0771 system system
-    mkdir /tombstones/dsps 0771 system system
     mkdir /data/vendor/hbtp 0750 system system
     mkdir /data/vendor/tloc 0700 system drmrpc
     mkdir /data/vendor/nnhal 0700 system system
