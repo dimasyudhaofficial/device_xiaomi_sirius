@@ -1090,7 +1090,7 @@ vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
 -vendor/app/CneApp/CneApp.apk
 -vendor/app/IWlanService/IWlanService.apk
 -vendor/app/SoterService/SoterService.apk
--vendor/app/TimeService/TimeService.apk;:timeservice_app_cert
+-vendor/app/TimeService/TimeService.apk
 -product/app/PowerOffAlarm/PowerOffAlarm.apk
 -product/app/QtiTelephonyService/QtiTelephonyService.apk
 -product/app/uceShimService/uceShimService.apk
