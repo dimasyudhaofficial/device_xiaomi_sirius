@@ -218,7 +218,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.radio.uicc_se_enabled=false \
     ril.subscription.types=NV,RUIM \
-    rild.libpath=/vendor/lib64/libril-qc-hal-qmi.so \
     ro.telephony.default_network=22,22 \
     ro.vendor.use_data_netmgrd=true \
     telephony.lteOnCdmaDevice=1
