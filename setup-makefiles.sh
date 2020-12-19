@@ -7,8 +7,6 @@
 
 set -e
 
-INITIAL_COPYRIGHT_YEAR=2018
-
 # Required!
 DEVICE=sirius
 VENDOR=xiaomi
@@ -17,9 +15,9 @@ VENDOR=xiaomi
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-MK_ROOT="${MY_DIR}/../../.."
+ANDROID_ROOT="${MY_DIR}/../../.."
 
-HELPER="${MK_ROOT}/vendor/mokee/build/tools/extract_utils.sh"
+HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -27,9 +25,9 @@ fi
 source "${HELPER}"
 
 # Initialize the helper for sirius
-setup_vendor "${DEVICE}" "${VENDOR}" "${MK_ROOT}" false
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}" false
 
-# Copyright headers and guards
+# Warning headers and guards
 write_headers
 
 # The standard device blobs
