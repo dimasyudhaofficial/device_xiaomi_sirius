@@ -155,7 +155,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     qemu.hw.mainkeys=0 \
     ro.opengles.version=196610 \
     sdm.debug.disable_inline_rotator=1 \
-    sdm.debug.disable_inline_rotator_secure=1
+    sdm.debug.disable_inline_rotator_secure=1 \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno
+
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
