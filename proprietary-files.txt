@@ -115,7 +115,6 @@ vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
 vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
-vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti
 vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
@@ -246,7 +245,6 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
 vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
-vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
@@ -386,7 +384,6 @@ vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
 vendor/lib/egl/libGLESv2_adreno.so
-vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
 vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
@@ -404,7 +401,7 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib/hw/vulkan.sdm710.so
+vendor/lib/hw/vulkan.adreno.so
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libC2D2.so
@@ -437,7 +434,6 @@ vendor/lib/libOmxWmaDec.so
 vendor/lib/libOpenCL.so
 vendor/lib/libQSEEComAPI.so
 vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/libRSDriver_adreno.so
 vendor/lib/libSNPE.so
 vendor/lib/libStDrvInt.so
 vendor/lib/libXMFD_AgeGender.so
@@ -455,7 +451,6 @@ vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_supernight.so
 vendor/lib/libaudcal.so
-vendor/lib/libbccQTI.so
 vendor/lib/libbeauty.so
 vendor/lib/libbluetooth_audio_session_qti.so
 vendor/lib/libbtnv.so
@@ -559,8 +554,6 @@ vendor/lib/libril-qc-radioconfig.so
 vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/librilqmiservices.so
 vendor/lib/librpmb.so
-vendor/lib/librs_adreno.so
-vendor/lib/librs_adreno_sha1.so
 vendor/lib/libscveBlobDescriptor.so
 vendor/lib/libscveBlobDescriptor_stub.so
 vendor/lib/libscveCommon.so
@@ -677,7 +670,6 @@ vendor/lib/vendor.qti.hardware.fm@1.0.so
 vendor/lib/vendor.qti.hardware.iop@1.0.so
 vendor/lib/vendor.qti.hardware.iop@2.0.so
 vendor/lib/vendor.qti.hardware.perf@2.0.so
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
@@ -698,7 +690,6 @@ vendor/lib64/egl/eglSubDriverAndroid.so
 vendor/lib64/egl/libEGL_adreno.so
 vendor/lib64/egl/libGLESv1_CM_adreno.so
 vendor/lib64/egl/libGLESv2_adreno.so
-vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
@@ -720,7 +711,7 @@ vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
-vendor/lib64/hw/vulkan.sdm710.so
+vendor/lib64/hw/vulkan.adreno.so
 vendor/lib64/lib-imscmservice.so
 vendor/lib64/lib-imsdpl.so
 vendor/lib64/lib-imsqimf.so
@@ -760,7 +751,6 @@ vendor/lib64/libOmxWmaDec.so
 vendor/lib64/libOpenCL.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/libRSDriver_adreno.so
 vendor/lib64/libStDrvInt.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
@@ -770,7 +760,6 @@ vendor/lib64/libadreno_utils.so
 vendor/lib64/libadsp_default_listener.so
 vendor/lib64/libadsprpc.so
 vendor/lib64/libaudcal.so
-vendor/lib64/libbccQTI.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libc2d30_bltlib.so
@@ -870,8 +859,6 @@ vendor/lib64/libril-qc-radioconfig.so
 vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/librilqmiservices.so
 vendor/lib64/librpmb.so
-vendor/lib64/librs_adreno.so
-vendor/lib64/librs_adreno_sha1.so
 vendor/lib64/libscveBlobDescriptor.so
 vendor/lib64/libscveBlobDescriptor_stub.so
 vendor/lib64/libscveCommon.so
@@ -957,7 +944,6 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.am@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.atcmdfwd@1.0.so
@@ -1000,6 +986,18 @@ vendor/radio/qcril_database/upgrade/2_version_add_wps_config.sql
 vendor/radio/qcril_database/upgrade/3_version_update_wps_config.sql
 vendor/radio/qcril_database/upgrade/4_version_update_ecc_table.sql
 vendor/radio/qcril_database/upgrade/5_version_update_ecc_table.sql
+vendor/lib/vendor.display.color@1.3.so
+vendor/lib/vendor.display.color@1.4.so
+vendor/lib/vendor.display.color@1.5.so
+vendor/lib64/vendor.display.color@1.3.so
+vendor/lib64/vendor.display.color@1.4.so
+vendor/lib64/vendor.display.color@1.5.so
+vendor/lib/libVkLayer_q3dtools.so
+vendor/lib/libgpudataproducer.so
+vendor/lib/libpvr.so
+vendor/lib64/libVkLayer_q3dtools.so
+vendor/lib64/libgpudataproducer.so
+vendor/lib64/libpvr.so
 -vendor/lib/liblbs_core.so
 -vendor/lib64/liblbs_core.so
 -priv-app/WfdService/WfdService.apk
